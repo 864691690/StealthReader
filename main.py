@@ -1,4 +1,5 @@
 import sys
+import re
 import requests
 import json
 import os
@@ -12,7 +13,8 @@ from PyQt5.QtWidgets import (QApplication, QWidget, QVBoxLayout, QMenu,
                              QSpinBox, QPushButton, QSystemTrayIcon, QStyle,
                              QColorDialog, QCheckBox, QHBoxLayout,
                              QFrame, QTextEdit, QShortcut, QListWidget,
-                             QListWidgetItem, QLabel, QFontComboBox, QSizePolicy, QFileDialog)
+                             QListWidgetItem, QLabel, QFontComboBox, QSizePolicy, QFileDialog,
+                             QAbstractItemView)
 from PyQt5.QtCore import Qt, QPoint, QRect, pyqtSignal, QObject, QThread, QTimer, QEvent
 from PyQt5.QtGui import QFont, QColor, QCursor, QKeySequence, QPainter, QPen, QFontMetrics
 
